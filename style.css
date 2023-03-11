@@ -3,12 +3,12 @@
     body {
         margin: 0px;
         padding: 0px;
-        margin-top: 20px;
+        margin-top: 5%;
         box-sizing: border-box;
     }
     h1 {
-        margin: 0px;
-        font-size: 30px;
+        margin: 0%;
+        font-size: 100%;
         width: 100%;
         text-align: center;
         font-family: "Poppins", "Helvetica Neue";
@@ -26,12 +26,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 250px;
+        width: 15rem;
         font-size: small;
         flex-wrap: wrap;
         font-family: "Poppins", "sans-serif";
-        border-top: #1b1b1b solid 1px;
-        line-height: 16px;
+        border-top: #1b1b1b solid 0.01rem;
+        line-height: 1rem;
     }
     .accordionList li:hover {
         cursor: pointer;
@@ -41,7 +41,7 @@
     }
     .accordionList li label {
         color: #1b1b1b;
-        padding: 7px 7px;
+        padding: 0.8rem 0.8rem;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -55,28 +55,28 @@
         display: none;
     }
     .accordionList li .content {
-        padding: 0px 10px;
+        padding: 0rem 1rem;
         overflow: hidden;
-        max-height: 0px;
+        max-height: 0rem;
         transition: 0.5s;
     }
     .accordionList li input:checked+.content {
-        max-height: 100px;
-        padding-bottom: 15px;
+        max-height: 10rem;
+        padding-bottom: 0.7rem;
         transition: 0.5s;
     }
 }
 
 @media (min-width: 820px) {
     body {
-        margin: 0px;
-        padding: 0px;
-        margin-top: 40px;
+        margin: 0rem;
+        padding: 0rem;
+        margin-top: 1.3rem;
         box-sizing: border-box;
     }
     h1 {
-        margin: 0px;
-        font-size: 40px;
+        margin: 0rem;
+        font-size: 2rem;
         width: 100%;
         text-align: center;
         font-family: "Poppins", "Helvetica Neue";
@@ -94,22 +94,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 500px;
-        font-size: small;
+        width: 30rem;
+        font-size: 1.1rem;
         flex-wrap: wrap;
         font-family: "Poppins", "sans-serif";
-        border-top: #1b1b1b solid 1px;
-        line-height: 26px;
+        border-top: #1b1b1b solid 0.01rem;
+        line-height: 2rem;
     }
     .accordionList li:hover {
         cursor: pointer;
     }
     .accordionList .last {
-        border-bottom: #1b1b1b solid 1px;
+        border-bottom: #1b1b1b solid 0.01rem;
     }
     .accordionList li label {
         color: #1b1b1b;
-        padding: 10px 10px;
+        padding: 1rem 1rem;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -123,26 +123,27 @@
         display: none;
     }
     .accordionList li .content {
-        padding: 0px 10px;
+        padding: 0rem 1rem;
         overflow: hidden;
-        max-height: 0px;
+        max-height: 0rem;
         transition: 0.5s;
     }
     .accordionList li input:checked+.content {
-        max-height: 300px;
-        padding-bottom: 15px;
+        max-height: 20rem;
+        padding-bottom: 1.5rem;
         transition: 0.5s;
     }
 }
 
 @media (min-width: 1920px) {
     body {
-        margin: 0px;
-        padding: 0px;
-        margin-top: 50px;
+        margin: 0rem;
+        padding: 0rem;
+        margin-top: 7rem;
         box-sizing: border-box;
     }
     h1 {
+        font-size: 3rem;
         width: 100%;
         text-align: center;
         font-family: "Poppins", "Helvetica Neue";
@@ -160,11 +161,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 500px;
+        width: 80%;
         flex-wrap: wrap;
         font-family: "Poppins", "sans-serif";
-        border-top: #1b1b1b solid 1px;
-        line-height: 26px;
+        border-top: #1b1b1b solid 0.01rem;
+        line-height: 3rem;
     }
     .accordionList li:hover {
         cursor: pointer;
@@ -174,7 +175,7 @@
     }
     .accordionList li label {
         color: #1b1b1b;
-        padding: 12px 12px;
+        padding: 1.2rem 1.2rem;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -188,14 +189,14 @@
         display: none;
     }
     .accordionList li .content {
-        padding: 0px 10px;
+        padding: 0rem 1rem;
         overflow: hidden;
-        max-height: 0px;
+        max-height: 0rem;
         transition: 0.5s;
     }
     .accordionList li input:checked+.content {
-        max-height: 300px;
-        padding-bottom: 15px;
+        max-height: 40rem;
+        padding-bottom: 1.5rem;
         transition: 0.5s;
     }
 }
