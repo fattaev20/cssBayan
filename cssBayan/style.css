@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
 @media (min-width: 320px) {
     body {
-        margin: 0px;
-        padding: 0px;
+        margin: 0rem;
+        padding: 0rem;
         margin-top: 1.3rem;
         box-sizing: border-box;
     }
@@ -32,9 +32,6 @@
         font-family: "Poppins", "sans-serif";
         border-top: #1b1b1b solid 0.01rem;
         line-height: 1rem;
-    }
-    .accordionList li:hover {
-        cursor: pointer;
     }
     .accordionList .last {
         border-bottom: #1b1b1b solid 1px;
@@ -105,9 +102,6 @@
         font-family: "Poppins", "sans-serif";
         border-top: #1b1b1b solid 0.01rem;
         line-height: 2rem;
-    }
-    .accordionList li:hover {
-        cursor: pointer;
     }
     .accordionList .last {
         border-bottom: #1b1b1b solid 0.01rem;
