@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+@media (min-width: 320px) {
+    body {
+        margin: 0rem;
+        padding: 0rem;
+        margin-top: 1.3rem;
+        box-sizing: border-box;
+    }
+    h1 {
+        margin: 0%;
+        font-size: 100%;
+        width: 100%;
+        text-align: center;
+        font-family: "Poppins", "Helvetica Neue";
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .accordionList {
+        padding: 0;
+    }
+    .accordionList li {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15rem;
+        font-size: small;
+        flex-wrap: wrap;
+        font-family: "Poppins", "sans-serif";
+        border-top: #1b1b1b solid 0.01rem;
+        line-height: 1rem;
+    }
+    .accordionList .last {
+        border-bottom: #1b1b1b solid 1px;
+    }
+    .accordionList li label {
+        color: #1b1b1b;
+        padding: 0.8rem 0.8rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .accordionList li .contLabel {
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+    }
+    .accordionList li label span {
+        transform: rotate(90deg);
+        transition: 0.5s;
+    }
+    .accordionList li input {
+        display: none;
+    }
+    .accordionList li .contLabel .content {
+        padding: 0rem 1rem;
+        overflow: hidden;
+        max-height: 0rem;
+        transition: 0.5s;
+    }
+    .accordionList li input:checked+.contLabel .content {
+        max-height: 10rem;
+        padding-bottom: 0.7rem;
+        transition: 0.5s;
+    }
+}
+
+@media (min-width: 820px) {
+    body {
+        margin: 0rem;
+        padding: 0rem;
+        margin-top: 1.3rem;
+        box-sizing: border-box;
+    }
+    h1 {
+        margin: 0rem;
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        font-family: "Poppins", "Helvetica Neue";
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .accordionList {
+        padding: 0;
+    }
+    .accordionList li {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30rem;
+        font-size: 1.1rem;
+        flex-wrap: wrap;
+        font-family: "Poppins", "sans-serif";
+        border-top: #1b1b1b solid 0.01rem;
+        line-height: 2rem;
+    }
+    .accordionList .last {
+        border-bottom: #1b1b1b solid 0.01rem;
+    }
+    .accordionList li label {
+        color: #1b1b1b;
+        padding: 1rem 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .accordionList li .contLabel {
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+    }
+    .accordionList li label span {
+        transform: rotate(90deg);
+        transition: 0.5s;
+    }
+    .accordionList li input {
+        display: none;
+    }
+    .accordionList li .contLabel .content {
+        padding: 0rem 1rem;
+        overflow: hidden;
+        max-height: 0rem;
+        transition: 0.5s;
+    }
+    .accordionList li input:checked+.contLabel .content {
+        max-height: 20rem;
+        padding-bottom: 1.5rem;
+        transition: 0.5s;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        margin: 0rem;
+        padding: 0rem;
+        margin-top: 1.3rem;
+        box-sizing: border-box;
+    }
+    h1 {
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        font-family: "Poppins", "Helvetica Neue";
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .accordionList {
+        padding: 0;
+    }
+    .accordionList li {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35rem;
+        flex-wrap: wrap;
+        font-family: "Poppins", "sans-serif";
+        font-size: 1.5rem;
+        border-top: #1b1b1b solid 0.01rem;
+        line-height: 3rem;
+    }
+    .accordionList li:hover {
+        cursor: pointer;
+    }
+    .accordionList .last {
+        border-bottom: #1b1b1b solid 0.01rem;
+    }
+    .accordionList li label {
+        color: #1b1b1b;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 0.5rem;
+    }
+    .accordionList li .contLabel {
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+    }
+    .accordionList li label span {
+        transform: rotate(90deg);
+        transition: 0.5s;
+    }
+    .accordionList li input {
+        display: none;
+    }
+    .accordionList li label .content {
+        padding: 0rem 1rem;
+        overflow: hidden;
+        max-height: 0rem;
+        transition: 0.5s;
+    }
+    .accordionList li input:checked+.contLabel .content {
+        width: 100%;
+        max-height: 30rem;
+        padding-bottom: 1.5rem;
+        transition: 0.5s;
+    }
+    .accordionList li label:hover~.contLabel .content {
+        width: 100%;
+        max-height: 30rem;
+        padding-bottom: 1.5rem;
+        transition: 0.5s;
+    }
+    .accordionList li .contLabel .content:hover {
+        width: 100%;
+        max-height: 30rem;
+        padding-bottom: 1.5rem;
+        transition: 0.5s;
+    }
+}
